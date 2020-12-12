@@ -1,6 +1,23 @@
 <p>&nbsp;</p>
 <h1>Welcome to BossAPI</h1>
-<h2><a href="google.com" download><img src="https://www.thatlazyadmin.com/wp-content/uploads/2017/03/download-button.png" alt="download-button - ThatLazyAdmin" width="167" height="34" /></a></h2>
-<p>&nbsp;</p>
-<hr />
-<h2>Created on Github<br />by Boss_GamerYT</h2>
+<h1 style="text-align: center;">BossCORE User login:<br />
+<form>
+<input type="text" placeholder="User ID" required /><br /><input type="password" placeholder="User Password" required/><br 
+
+/><input type="submit" id="button" /></h1>
+</form>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$(function() {
+    $( "#button" ).click(function() {
+        $( "#item" ).toggle();
+    });
+});
+
+$(function() {
+    $( "#buttona" ).click(function() {
+        $( "#item" ).toggle();
+    });
+});
+</script>
+<div id="item" hidden><p style="text-align: center;"><span id="buttona" style="color: red; cursor: pointer">X (CLOSE)</span><br><iframe src="https://dummyimage.com/600x400/fcfcff/000000.png&amp;text=Username/Password invalid." width="650" height="400"></iframe></p></div>
